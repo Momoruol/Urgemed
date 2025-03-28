@@ -1,379 +1,431 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>UrgeMed | Lagoa Vermelha</title>
-    <link rel="icon" type="png" href="./src/images/logo_icon.png" />
-    <meta name="title" content="UrgeMed | Lagoa Vermelha" />
-    <meta
-      name="description"
-      content="Urgemed: Experiência em remoções médicas. Equipe especializada e equipamentos de última geração garantem segurança e conforto 24h."
-    />
-    <meta
-      name="keywords"
-      content="remoções medicas, segurança, conforto, transfêrencias hospitalares, atendimento domiciliar, cobertura de eventos, serviços de enfermagem, pronto atendimento, pronto socorro, hospital, ambulância, 24 horas"
-    />
-    <meta name="robots" content="index, follow" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="language" content="pt-BR" />
-    <meta name="revisit-after" content="1 days" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>UrgeMed | Lagoa Vermelha</title>
+		<link rel="icon" type="png" href="./src/images/logo_icon.png" />
+		<meta name="title" content="UrgeMed | Lagoa Vermelha" />
+		<meta
+			name="description"
+			content="Urgemed: Experiência em remoções médicas. Equipe especializada e equipamentos de última geração garantem segurança e conforto 24h."
+		/>
+		<meta
+			name="keywords"
+			content="remoções medicas, segurança, conforto, transfêrencias hospitalares, atendimento domiciliar, cobertura de eventos, serviços de enfermagem, pronto atendimento, pronto socorro, hospital, ambulância, 24 horas"
+		/>
+		<meta name="robots" content="index, follow" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="language" content="pt-BR" />
+		<meta name="revisit-after" content="1 days" />
 
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="./src/style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <header
-        class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between"
-      >
-        <div class="col-md-3 mb-2 mb-md-0">
-          <img
-            src="src/images/Logo.png"
-            alt="Logo"
-            width="110"
-            class="img-fluid"
-          />
-        </div>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="./src/style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<header
+				class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between"
+			>
+				<div class="col-md-3 mb-2 mb-md-0">
+					<img
+						src="src/images/Logo.png"
+						alt="Logo"
+						width="110"
+						class="img-fluid"
+					/>
+				</div>
 
-        <ul class="nav col-12 col-md-auto justify-content-center mb-md-0 mb-2">
-          <li class="mx-2">
-            <a
-              href="index.html"
-              class="nav-link px-2 text-light bg-blue rounded-4 fs-4"
-              >Início</a
-            >
-          </li>
-          <li class="mx-2">
-            <a href="sobre.html" class="nav-link px-2 text-dark fs-4">Sobre</a>
-          </li>
-          <li class="mx-2">
-            <a href="contato.html" class="nav-link px-2 text-dark fs-4"
-              >Contato</a
-            >
-          </li>
-        </ul>
-      </header>
-    </div>
-    <div class="container my-5">
-      <div class="row align-items-center rounded-3 border shadow-lg vh-75">
-        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-          <h1 class="display-3 fw-bold lh-1 text-danger text-center">
-            UrgeMed
-          </h1>
-          <h2 class="display-6 text-center text-blue fw-medium">
-            Sua saúde é <strong>Fundamental</strong>
-          </h2>
-          <div
-            class="d-grid gap-2 d-md-flex justify-content-center mb-4 mb-lg-3 mt-3"
-          >
-            <button
-              onclick="to_sobre()"
-              class="btn btn-primary btn-lg px-4 me-md-2 fw-bold"
-            >
-              Saiba mais
-            </button>
-          </div>
-        </div>
-        <div class="col-lg-4 offset-lg-0 overflow-hidden shadow-lg">
-          <img
-            class="rounded-3 img-fluid me-5"
-            src="src/images/inicio.jpg"
-            alt="img_banner"
-            width="500"
-          />
-        </div>
-      </div>
-    </div>
-    <div class="container col-xxl-8 px-4 py-5">
-      <div class="row align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-          <img
-            src="src/images/cellphone.png"
-            class="d-block mx-lg-auto img-fluid"
-            alt="Celular"
-            width="700"
-            height="500"
-            loading="lazy"
-          />
-        </div>
-        <div class="col-lg-6">
-          <h1 class="display-5 fw-bold text-danger lh-1 m-3">
-            Emergências Médicas
-          </h1>
-          <h2 class="display-6 text-blue m-3 fw-medium">24 Horas por Dia</h2>
-          <h4 class="lead m-3 fw-medium" id="justify">
-            A Urgemed Remoções Médicas redefine o atendimento de saúde em Lagoa
-            Vermelha e região. Especialista em remoções hospitalares, suporte
-            pré-hospitalar e cobertura de eventos, a Urgemed combina tecnologia
-            de ponta com um atendimento humanizado. Nossa equipe atua com
-            rapidez e precisão, comprometendo-se com a excelência e segurança de
-            cada paciente, 24 horas por dia.
-          </h4>
-          <div class="d-grid gap-2 d-md-flex justify-content-start px-4">
-            <button
-              onclick="to_contato()"
-              class="btn btn-outline-primary btn-lg px-4 fw-medium mt-3"
-            >
-              Entre em Contato!
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid bg-gray pb-5">
-      <div class="container">
-        <div class="row">
-          <div class="col d-flex justify-content-center">
-            <h1 class="text-danger display-3 fw-bold my-5 text-center">
-              Por que nos escolher?
-            </h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col d-flex justify-content-center mb-5">
-            <div class="card" style="width: 18rem">
-              <img
-                src="./src/images/card_ambulancia.png"
-                class="card-img-top border-bottom"
-                alt="transferencias_hospitalares"
-              />
-              <div class="card-body">
-                <h5 class="card-title text-danger">
-                  Transferências Hospitalares
-                </h5>
-                <p class="card-text" id="justify">
-                  Realizamos transferências seguras e ágeis, priorizando
-                  conforto e segurança.
-                </p>
-                <div class="d-flex justify-content-center">
-                  <a onclick="to_contato()" class="btn btn-outline-primary"
-                    >Saiba Mais!</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col d-flex justify-content-center mb-5">
-            <div class="card" style="width: 18rem">
-              <img
-                src="./src/images/atendimento_domiciliar.png"
-                class="card-img-top border-bottom"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title text-danger">Atendimento Domiciliar</h5>
-                <p class="card-text" id="justify">
-                  Oferecemos atendimento médico e de enfermagem diretamente em
-                  sua casa, com conforto e rapidez.
-                </p>
-                <div class="d-flex justify-content-center">
-                  <a onclick="to_contato()" class="btn btn-outline-primary"
-                    >Saiba Mais!</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col d-flex justify-content-center mb-5">
-            <div class="card" style="width: 18rem">
-              <img
-                src="./src/images/card_remocoes_hospitalares.png"
-                class="card-img-top border-bottom"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title text-danger">Remoções Médicas</h5>
-                <p class="card-text" id="justify">
-                  Transporte seguro e eficiente de pacientes com suporte em cada
-                  etapa, garantindo eficiência.
-                </p>
-                <div class="d-flex justify-content-center">
-                  <a onclick="to_contato()" class="btn btn-outline-primary"
-                    >Saiba Mais!</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col d-flex justify-content-center mb-5">
-            <div class="card" style="width: 18rem">
-              <img
-                src="./src/images/cobertura_eventos.png"
-                class="card-img-top border-bottom"
-                alt="transferencias_hospitalares"
-              />
-              <div class="card-body">
-                <h5 class="card-title text-danger">Cobertura de Eventos</h5>
-                <p class="card-text" id="justify">
-                  Assistência médica completa em eventos, assegurando segurança
-                  e resposta imediata à emergências.
-                </p>
-                <div class="d-flex justify-content-center">
-                  <a onclick="to_contato()" class="btn btn-outline-primary"
-                    >Saiba Mais!</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col d-flex justify-content-center mb-5">
-            <div class="card" style="width: 18rem">
-              <img
-                src="./src/images/enfermagem.png"
-                class="card-img-top border-bottom"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title text-danger">Serviços de Enfermagem</h5>
-                <p class="card-text" id="justify">
-                  Atendimento qualificado e personalizado, com atendimento
-                  especializado para cada paciente.
-                </p>
-                <div class="d-flex justify-content-center">
-                  <a onclick="to_contato()" class="btn btn-outline-primary"
-                    >Saiba Mais!</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col d-flex justify-content-center mb-5">
-            <div class="card" style="width: 18rem">
-              <img
-                src="./src/images/pronto_atendimento.png"
-                class="card-img-top border-bottom"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title text-danger">Pronto Atendimento</h5>
-                <p class="card-text" id="justify">
-                  Atendimento rápido e eficiente para situações de urgência,
-                  disponível 24 horas por dia.
-                </p>
-                <div class="d-flex justify-content-center">
-                  <a onclick="to_contato()" class="btn btn-outline-primary"
-                    >Saiba Mais!</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid pb-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 display-4 fw-bold text-center text-blue mt-5">
-            Precisa de atendimento imediato?
-          </div>
-          <div class="col-12 text-center mt-3">
-            <h4 class="fs-4 text-center">
-              Estamos prontos para efetuar o melhor e mais rápido apoio médico
-              da região, 24 horas por dia.
-            </h4>
-          </div>
-          <div class="col-12 text-center">
-            <h4 class="fs-3 text-center">
-              Confie em quem entende de cuidado. Confie na
-              <span class="text-danger">UrgeMed</span>!
-            </h4>
-          </div>
+				<ul
+					class="nav col-12 col-md-auto justify-content-center mb-md-0 mb-2"
+				>
+					<li class="mx-2">
+						<a
+							href="index.html"
+							class="nav-link px-2 text-light bg-blue rounded-4 fs-4"
+							>Início</a
+						>
+					</li>
+					<li class="mx-2">
+						<a
+							href="sobre.html"
+							class="nav-link px-2 text-dark fs-4"
+							>Sobre</a
+						>
+					</li>
+					<li class="mx-2">
+						<a
+							href="contato.html"
+							class="nav-link px-2 text-dark fs-4"
+							>Contato</a
+						>
+					</li>
+				</ul>
+			</header>
+		</div>
+		<div class="container bg-logo my-5">
+			<div
+				class="row align-items-center rounded-3 border shadow-lg vh-75 bg-logo"
+			>
+				<div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+					<h1 class="display-3 fw-bold lh-1 text-danger text-center">
+						UrgeMed
+					</h1>
+					<h2 class="display-6 text-center text-blue fw-medium">
+						Sua saúde é <strong>Fundamental</strong>
+					</h2>
+					<div
+						class="d-grid gap-2 d-md-flex justify-content-center mb-4 mb-lg-3 mt-3"
+					>
+						<button
+							onclick="to_sobre()"
+							class="btn btn-primary btn-lg px-4 me-md-2 fw-bold"
+						>
+							Saiba mais
+						</button>
+					</div>
+				</div>
+				<div class="col-lg-4 offset-lg-0 overflow-hidden bg-logo">
+					<img
+						id="image_logo_urgemed"
+						class="img-fluid me-5 bg-logo"
+						src="src/images/LOGO URGEMED.jpg"
+						alt="img_banner"
+					/>
+				</div>
+			</div>
+		</div>
+		<div class="container col-xxl-8 px-4 py-5">
+			<div class="row align-items-center g-5 py-5">
+				<div class="col-10 col-sm-8 col-lg-6">
+					<img
+						src="src/images/cellphone.png"
+						class="d-block mx-lg-auto img-fluid"
+						alt="Celular"
+						width="700"
+						height="500"
+						loading="lazy"
+					/>
+				</div>
+				<div class="col-lg-6">
+					<h1 class="display-5 fw-bold text-danger lh-1 m-3">
+						Emergências Médicas
+					</h1>
+					<h2 class="display-6 text-blue m-3 fw-medium">
+						24 Horas por Dia
+					</h2>
+					<h4 class="lead m-3 fw-medium" id="justify">
+						A Urgemed Remoções Médicas redefine o atendimento de
+						saúde em Lagoa Vermelha e região. Especialista em
+						remoções hospitalares, suporte pré-hospitalar e
+						cobertura de eventos, a Urgemed combina tecnologia de
+						ponta com um atendimento humanizado. Nossa equipe atua
+						com rapidez e precisão, comprometendo-se com a
+						excelência e segurança de cada paciente, 24 horas por
+						dia.
+					</h4>
+					<div
+						class="d-grid gap-2 d-md-flex justify-content-start px-4"
+					>
+						<button
+							onclick="to_contato()"
+							class="btn btn-outline-primary btn-lg px-4 fw-medium mt-3"
+						>
+							Entre em Contato!
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid bg-gray pb-5">
+			<div class="container">
+				<div class="row">
+					<div class="col d-flex justify-content-center">
+						<h1
+							class="text-danger display-3 fw-bold my-5 text-center"
+						>
+							Por que nos escolher?
+						</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col d-flex justify-content-center mb-5">
+						<div class="card" style="width: 18rem">
+							<img
+								src="./src/images/card_ambulancia.png"
+								class="card-img-top border-bottom"
+								alt="transferencias_hospitalares"
+							/>
+							<div class="card-body">
+								<h5 class="card-title text-danger">
+									Transferências Hospitalares
+								</h5>
+								<p class="card-text" id="justify">
+									Realizamos transferências seguras e ágeis,
+									priorizando conforto e segurança.
+								</p>
+								<div class="d-flex justify-content-center">
+									<a
+										onclick="to_contato()"
+										class="btn btn-outline-primary"
+										>Saiba Mais!</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col d-flex justify-content-center mb-5">
+						<div class="card" style="width: 18rem">
+							<img
+								src="./src/images/atendimento_domiciliar.png"
+								class="card-img-top border-bottom"
+								alt="..."
+							/>
+							<div class="card-body">
+								<h5 class="card-title text-danger">
+									Atendimento Domiciliar
+								</h5>
+								<p class="card-text" id="justify">
+									Oferecemos atendimento médico e de
+									enfermagem diretamente em sua casa, com
+									conforto e rapidez.
+								</p>
+								<div class="d-flex justify-content-center">
+									<a
+										onclick="to_contato()"
+										class="btn btn-outline-primary"
+										>Saiba Mais!</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col d-flex justify-content-center mb-5">
+						<div class="card" style="width: 18rem">
+							<img
+								src="./src/images/card_remocoes_hospitalares.png"
+								class="card-img-top border-bottom"
+								alt="..."
+							/>
+							<div class="card-body">
+								<h5 class="card-title text-danger">
+									Remoções Médicas
+								</h5>
+								<p class="card-text" id="justify">
+									Transporte seguro e eficiente de pacientes
+									com suporte em cada etapa, garantindo
+									eficiência.
+								</p>
+								<div class="d-flex justify-content-center">
+									<a
+										onclick="to_contato()"
+										class="btn btn-outline-primary"
+										>Saiba Mais!</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col d-flex justify-content-center mb-5">
+						<div class="card" style="width: 18rem">
+							<img
+								src="./src/images/cobertura_eventos.png"
+								class="card-img-top border-bottom"
+								alt="transferencias_hospitalares"
+							/>
+							<div class="card-body">
+								<h5 class="card-title text-danger">
+									Cobertura de Eventos
+								</h5>
+								<p class="card-text" id="justify">
+									Assistência médica completa em eventos,
+									assegurando segurança e resposta imediata à
+									emergências.
+								</p>
+								<div class="d-flex justify-content-center">
+									<a
+										onclick="to_contato()"
+										class="btn btn-outline-primary"
+										>Saiba Mais!</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col d-flex justify-content-center mb-5">
+						<div class="card" style="width: 18rem">
+							<img
+								src="./src/images/enfermagem.png"
+								class="card-img-top border-bottom"
+								alt="..."
+							/>
+							<div class="card-body">
+								<h5 class="card-title text-danger">
+									Serviços de Enfermagem
+								</h5>
+								<p class="card-text" id="justify">
+									Atendimento qualificado e personalizado, com
+									atendimento especializado para cada
+									paciente.
+								</p>
+								<div class="d-flex justify-content-center">
+									<a
+										onclick="to_contato()"
+										class="btn btn-outline-primary"
+										>Saiba Mais!</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col d-flex justify-content-center mb-5">
+						<div class="card" style="width: 18rem">
+							<img
+								src="./src/images/pronto_atendimento.png"
+								class="card-img-top border-bottom"
+								alt="..."
+							/>
+							<div class="card-body">
+								<h5 class="card-title text-danger">
+									Pronto Atendimento
+								</h5>
+								<p class="card-text" id="justify">
+									Atendimento rápido e eficiente para
+									situações de urgência, disponível 24 horas
+									por dia.
+								</p>
+								<div class="d-flex justify-content-center">
+									<a
+										onclick="to_contato()"
+										class="btn btn-outline-primary"
+										>Saiba Mais!</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid pb-5">
+			<div class="container">
+				<div class="row">
+					<div
+						class="col-12 display-4 fw-bold text-center text-blue mt-5"
+					>
+						Precisa de atendimento imediato?
+					</div>
+					<div class="col-12 text-center mt-3">
+						<h4 class="fs-4 text-center">
+							Estamos prontos para efetuar o melhor e mais rápido
+							apoio médico da região, 24 horas por dia.
+						</h4>
+					</div>
+					<div class="col-12 text-center">
+						<h4 class="fs-3 text-center">
+							Confie em quem entende de cuidado. Confie na
+							<span class="text-danger">UrgeMed</span>!
+						</h4>
+					</div>
 
-          <div class="col-12 d-flex justify-content-center mt-4">
-            <a
-              href="https://api.whatsapp.com/send?phone=5554996482550"
-              class="btn btn-danger btn-lg p-3"
-              target="_blank"
-            >
-              <span class="fs-2 fw-bold">Entre em contato agora!</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <footer
-        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-5 border-top border-dark"
-      >
-        <div class="col-md-4 d-flex align-items-center">
-          <a
-            href="/"
-            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
-          >
-            <svg class="bi" width="30" height="24">
-              <use xlink:href="#bootstrap"></use>
-            </svg>
-          </a>
-          <span class="mb-3 mb-md-0 text-dark fw-medium">© 2025 UrgeMed</span>
-        </div>
+					<div class="col-12 d-flex justify-content-center mt-4">
+						<a
+							href="https://api.whatsapp.com/send?phone=5554996482550"
+							class="btn btn-danger btn-lg p-3"
+							target="_blank"
+						>
+							<span class="fs-2 fw-bold"
+								>Entre em contato agora!</span
+							>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<footer
+				class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-5 border-top border-dark"
+			>
+				<div class="col-md-4 d-flex align-items-center">
+					<a
+						href="/"
+						class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+					>
+						<svg class="bi" width="30" height="24">
+							<use xlink:href="#bootstrap"></use>
+						</svg>
+					</a>
+					<span class="mb-3 mb-md-0 text-dark fw-medium"
+						>© 2025 UrgeMed</span
+					>
+				</div>
 
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-3">
-            <a
-              class="text-body-secondary"
-              href="https://www.instagram.com/urge_med_lagoa/"
-              target="_blank"
-              ><img
-                src="src/images/svg/insta.svg"
-                alt="insta_icon"
-                width="40"
-                height="40"
-                viewbox="0 0 16 16"
-              />
-            </a>
-          </li>
-          <li class="ms-3">
-            <a
-              class="text-body-secondary"
-              href="https://www.facebook.com/Urgemed.lagoa/?_rdr"
-              target="_blank"
-              ><img
-                src="src/images/svg/face.svg"
-                alt="facebook_icon"
-                width="40"
-                height="40"
-                viewbox="0 0 16 16"
-              />
-            </a>
-          </li>
-          <li class="ms-3">
-            <a
-              class="text-body-secondary"
-              href="https://api.whatsapp.com/send?phone=5554996482550"
-              target="_blank"
-              ><img
-                src="src/images/svg/whats.svg"
-                alt="whats_icon"
-                width="40"
-                height="40"
-                viewbox="0 0 16 16"
-              />
-            </a>
-          </li>
-        </ul>
-      </footer>
-    </div>
-    <script src="./script.js"></script>
-  </body>
+				<ul
+					class="nav col-md-4 justify-content-end list-unstyled d-flex"
+				>
+					<li class="ms-3">
+						<a
+							class="text-body-secondary"
+							href="https://www.instagram.com/urge_med_lagoa/"
+							target="_blank"
+							><img
+								src="src/images/svg/insta.svg"
+								alt="insta_icon"
+								width="40"
+								height="40"
+								viewbox="0 0 16 16"
+							/>
+						</a>
+					</li>
+					<li class="ms-3">
+						<a
+							class="text-body-secondary"
+							href="https://www.facebook.com/Urgemed.lagoa/?_rdr"
+							target="_blank"
+							><img
+								src="src/images/svg/face.svg"
+								alt="facebook_icon"
+								width="40"
+								height="40"
+								viewbox="0 0 16 16"
+							/>
+						</a>
+					</li>
+					<li class="ms-3">
+						<a
+							class="text-body-secondary"
+							href="https://api.whatsapp.com/send?phone=5554996482550"
+							target="_blank"
+							><img
+								src="src/images/svg/whats.svg"
+								alt="whats_icon"
+								width="40"
+								height="40"
+								viewbox="0 0 16 16"
+							/>
+						</a>
+					</li>
+				</ul>
+			</footer>
+		</div>
+		<script src="./script.js"></script>
+	</body>
 </html>
